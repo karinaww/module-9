@@ -15,8 +15,7 @@ fruits.shift();
 console.log(fruits);
 
 // Задание 4: Метод `forEach`
-let fruit = fruits.forEach((fruit) => console.log(fruit));
-console.log(fruit);
+fruits.forEach((fruit) => console.log(fruit));
 
 // Задание 5: Метод `map`
 let lengths = fruits.map((fruit) => fruit.length);
